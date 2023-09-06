@@ -36,3 +36,165 @@ a {
 }
 
 .form-wrap h1 {}
+
+button {
+  background-color: blue;
+  color: #fff;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.Dislike {
+  background-color: red;
+}
+
+button:hover {
+  background-color: antiquewhite;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+
+li, a {
+  font-weight: 500;
+  font-size: 100px;
+  text-decoration: none;
+  padding: 0px 100px;
+  color: white;
+
+}
+.navlinks li a:hover {
+  color: gray; /* Change this to the desired hover color */
+}
+  
+
+.navlinks{
+  display: inline-block;
+  
+}
+.navlinks li{
+  display: inline-block;
+}
+
+
+container {
+  width: 350px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+/* Heading Styles */
+.container h1 {
+  font-size: 24px;
+}
+
+
+.container form {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  background-color: #4CAF50;
+  width: 100%;
+  color: #fff;
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+
+.container a {
+  text-decoration: none;
+  color: #007BFF;
+}
+
+.container p {
+  margin-top: 20px;
+}
+
+.box {
+  text-align: center;
+}
+
+.header {
+  color: #fff;
+}
+
+.content {
+  color: #fff;
+  font-size: 36px;
+}
+
+.container-index {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr); 
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
+}
+
+
+.container-index div {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.container-index img {
+  max-width: 100%;
+}
+
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: black;
+}
+
+li, a {
+font-weight: 500;
+font-size: 100px;
+text-decoration: none;
+padding: 0px 100px;
+color: white;
+
+}
+.navlinks li a:hover {
+color: gray; /* Change this to the desired hover color */
+}
+
+
+.navlinks{
+display: inline-block;
+
+}
+.navlinks li{
+display: inline-block;
+}

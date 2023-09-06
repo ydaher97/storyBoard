@@ -14,3 +14,32 @@ button {
 button:hover {
   background-color: antiquewhite;
 }
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+
+li, a {
+  font-weight: 500;
+  font-size: 100px;
+  text-decoration: none;
+  padding: 0px 100px;
+  color: white;
+
+}
+.navlinks li a:hover {
+  color: gray; /* Change this to the desired hover color */
+}
+  
+
+.navlinks{
+  display: inline-block;
+  
+}
+.navlinks li{
+  display: inline-block;
+}

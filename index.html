@@ -22,9 +22,48 @@
         .container img {
             max-width: 100%;
         }
+
+        header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+li, a {
+    font-weight: 500;
+    font-size: 100px;
+    text-decoration: none;
+    padding: 0px 100px;
+    color: white;
+
+}
+.navlinks li a:hover {
+    color: gray; /* Change this to the desired hover color */
+}
+    
+
+.navlinks{
+    display: inline-block;
+    
+}
+.navlinks li{
+    display: inline-block;
+}
     </style>
 </head>
 <body>
+    <header>
+        <span></span>
+        <nav>
+            <ul class="navlinks">
+                <li><a href="">StoryBard</a></li>
+                <li><a href="">Ranking</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </nav>
+        <span></span>
+    </header>
     <div class="container">
         <div>
         <img src="/images/bigstock-Faces-47906939-300x219.jpg" alt="">

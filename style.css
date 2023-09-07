@@ -115,8 +115,8 @@ input {
   border: 1px solid #ccc;
   border-radius: 3px;
 }
-/* 
-button {
+ 
+.signupbtn, .reset {
   background-color: #4CAF50;
   width: 100%;
   color: #fff;
@@ -125,7 +125,7 @@ button {
   border-radius: 3px;
   cursor: pointer;
   margin-top: 30px;
-} */
+} 
 
 
 .container a {
@@ -196,7 +196,7 @@ display: inline-block;
 display: inline-block;
 }
 a:link {
-  font-size: 20px;
+  font-size: 16px;
   text-decoration: none;
 }
 

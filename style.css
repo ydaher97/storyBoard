@@ -216,3 +216,9 @@ a:active {
 .link{
   padding: 0;
 }
+.content-p {
+float: left;
+}
+.comic-img {
+  float: right;
+}

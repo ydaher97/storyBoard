@@ -205,3 +205,6 @@ float: left;
 .comic-img {
   float: right;
 }
+details {
+  color: lightgreen;
+}

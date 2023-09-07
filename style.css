@@ -139,12 +139,14 @@ input {
   margin-top: 20px;
 }
 
-.box {
+.comic-img {
   text-align: center;
+  margin-top: auto;
 }
 
 .header {
   color: #fff;
+  display: flex;
 }
 
 .content {
